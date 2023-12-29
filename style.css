@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  justify-content: center;
+  background-color: azure;
+  display: flex;
+  height: 100vh;
+  padding: 20px 0;
+}
+
+.left {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  background-color: rgba(21, 55, 246, 0.72);
+}
+
+.media-section {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+
+.name {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 15px;
+  margin: -5px;
+  color: rgb(255, 255, 255);
+}
+
+.pic {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 150px;
+  width:140px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 7px 0;
+}
+
+.right {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-data {
+  width: 90%;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 40px;
+  background-color: rgba(86, 120, 255, 0.456);
+}
+.about {
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.education {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+.Email img {
+  border-radius: 50%;
+  height: 25px;
+}
+.sub {
+  height: 20px;
+}
+
+.skills {
+  margin-top: 8px;
+}
+
+.list {
+  color: white;
+  padding: 9px 0;
+  padding-left: 20px;
+}
+
+.lists {
+  padding: 3px 0;
+}
+
+.soft-skill h2 {
+  color: white;
+}
+
+/* hobbies section css  */
+.hobbies {
+  color: white;
+}
